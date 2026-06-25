@@ -1,7 +1,9 @@
-import prop1 from "@/assets/property-1.jpg";
-import prop2 from "@/assets/property-2.jpg";
-import prop3 from "@/assets/property-3.jpg";
-import prop4 from "@/assets/property-4.jpg";
+import prop1 from "@/assets/huz 1.jpg";
+import prop2 from "@/assets/4.jpeg";
+import prop3 from "@/assets/huz 3.jpg";
+import prop4 from "@/assets/huz 4.jpg";
+import prop5 from "@/assets/huz 5.jpg";
+import prop6 from "@/assets/huz6.jpg";
 
 export type PropertyType = "duplex" | "terrace" | "penthouse" | "apartment" | "land" | "mansion";
 export type Intent = "residential" | "commercial" | "investment";
@@ -74,7 +76,7 @@ export const PROPERTIES: Property[] = [
     price: 18_000_000,
     intent: ["investment"],
     tags: ["C of O", "Dry Land", "Gazetted"],
-    image: prop1,
+    image: prop5,
     description: "600sqm plots with full C of O in a fast-appreciating corridor.",
   },
   {
@@ -85,7 +87,7 @@ export const PROPERTIES: Property[] = [
     price: 95_000_000, bedrooms: 3,
     intent: ["residential", "investment"],
     tags: ["Serviced", "Gym & Pool", "24/7 Power"],
-    image: prop2,
+    image: prop6,
     description: "3-bedroom serviced apartments with marina views and short-let yield.",
   },
 ];
